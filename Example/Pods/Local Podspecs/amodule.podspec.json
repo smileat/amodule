@@ -1,0 +1,22 @@
+{
+  "name": "amodule",
+  "version": "0.1.0",
+  "summary": "A short description of amodule.",
+  "description": "描述的随便写写",
+  "homepage": "https://github.com/smileat/amodule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "smileat": "zshan@chint.com"
+  },
+  "source": {
+    "git": "https://github.com/smileat/amodule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "amodule/Classes/**/*"
+}

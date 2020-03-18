@@ -7,7 +7,7 @@
 //
 
 #import "ZSHViewController.h"
-
+#import "ZSHtestview.h"
 @interface ZSHViewController ()
 
 @end
@@ -17,7 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    ZSHtestview *v = [[ZSHtestview alloc] initWithFrame:CGRectMake(50, 50, 150, 150)];
+    [v settestcolor:[UIColor redColor]];
+    [self.view addSubview:v];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
